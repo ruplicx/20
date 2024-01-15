@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>owned.wtf</title>
+    <meta name="description" content="owned.wtf Invite only biolink page. Join our discord: https://discord.gg/Q7eps2MYmg">
+    <link rel="icon" href="../images/fav.png" type="image/x-icon">
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="../js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="../css/toastr.css">
+    <link rel="stylesheet" href="../css/cookie-banner.css">
+    <script src="../js/toastr.min.js"></script>
+
+    <meta property="og:title" content="owned.wtf">
+    <meta property="og:description" content="owned.wtf Invite only biolink page. Join our discord: https://discord.gg/Q7eps2MYmg">
+    <meta property="og:image" content="https://owned.wtf/Profile/assets/img/fav.png">
+    <meta property="og:url" content="https://owned.wtf">
+    <meta name="theme-color" content="#6b32a8">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="owned.wtf">
+    <meta name="twitter:description" content="owned.wtf Invite only biolink page. Join our discord: https://discord.gg/Q7eps2MYmg">
+    <meta name="twitter:image" content="https://owned.wtf/Profile/assets/img/fav.png">
+    <meta name="twitter:domain" content="owned.wtf">
+    <meta property="og:type" content="Biography">
+</head>
+<body>
+    <script nonce="ra6KNimTZrrf5fT0VxWO7i1tNH7968My" src="../js/toastr.settings.js"></script>
+    <div class="js-cookie-consent cookie-consent fixed bottom-0 inset-x-0 pb-2">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="p-2 rounded-lg bg-yellow-100">
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="w-0 flex-1 items-center hidden md:inline">
+                    <p class="ml-3 text-black cookie-consent__message">
+                        Your experience on this site will be improved by allowing cookies.
+                    </p>
+                </div>
+                <div class="mt-2 flex-shrink-0 w-full sm:mt-0 sm:w-auto">
+                    <button class="js-cookie-consent-agree cookie-consent__agree cursor-pointer flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-yellow-800 bg-yellow-400 hover:bg-yellow-300">
+                        Allow cookies
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script nonce="ra6KNimTZrrf5fT0VxWO7i1tNH7968My">
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'owned.wtf';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + ';samesite=lax';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+
+        <style>
+        @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        html {
+            font-family: 'Kanit', sans-serif;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            scrollbar-width: none;
+        }
+
+        .mid {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 39px 27px;
+            width: auto;
+            max-width: 35.9rem;
+            border-radius: 10px;
+            border: 2px solid #5F40E5;
+            box-shadow: 0 0 2.5px #ffffff;
+        }
+
+        h1 {
+            font-size: 25px;
+            color: #5F40E5;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 17px;
+            color: #bababa;
+            text-align: center;
+        }
+
+        button {
+            color: white;
+            background-color: transparent;
+            font-weight: 450;
+            border: 1px solid #5F40E5;
+            border-radius: 7px 0px 7px 7px;
+            padding: 6px 11px;
+            width: fit-content;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            font-weight: 450;
+            border: 1px solid rgb(197, 190, 229);
+            border-radius: 7px 7px 7px 0px;
+            padding: 6px 11px;
+            width: fit-content;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .button-styled{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <!-- Some skids got mad so here you go dick riders (50€ donator badge 💀💀💀) -->
+    <div class="mid">
+        <h1>Page not claimed.</h1>
+        <h3>This page is ready to be claimed.</h3>
+        <div class="button-styled">
+        <button id="claim-here">Claim</button>
+        <button id="reg-here">Register</button>
+        </div>
+    </div>
+    <script nonce="ra6KNimTZrrf5fT0VxWO7i1tNH7968My" type="text/javascript">
+        document.getElementById("claim-here").onclick = function () {
+            location.href = "https://owned.wtf/settings";
+        };
+
+        document.getElementById("reg-here").onclick = function () {
+            location.href = "https://owned.wtf/register";
+        };
+    </script>
+
+
+
+</body></html>
